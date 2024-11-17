@@ -1,0 +1,53 @@
+.formCard {
+    margin: 10% auto;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #243642;
+
+    div {
+        margin: 15px 0;
+    }
+
+
+    input {
+        border: none;
+        width: 100%;
+        border-bottom: 1px solid lightgray;
+        font-size: 12px;
+        outline-style: none;
+        color: lightgray;
+        background-color: #243642 !important;
+    }
+
+    label {
+        font-weight: 600;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        color: lightgray;
+    }
+
+    p {
+        color: #F95454;
+        font-size: 12px;
+        font-weight: 100;
+        font-family: 'Times New Roman', Times, serif
+    }
+
+    button {
+        border: none;
+        background-color: lightgray;
+        height: 30px;
+        width: 100px;
+        border-radius: 15px;
+        color: #243642;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+        margin: auto;
+        display: block;
+    }
+
+
+}
